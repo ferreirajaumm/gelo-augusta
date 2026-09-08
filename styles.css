@@ -315,3 +315,47 @@ h3 { font-size: 25px; line-height: 1.15; }
 .consent-actions button:hover, .consent-settings:hover { background: var(--accent-cta-hover); transform: translateY(-1px); }
 .consent-settings { position: fixed; z-index: 90; left: 14px; bottom: 14px; border-color: rgb(243 235 212 / 34%); background: rgb(2 8 12 / 88%); font-size: 9px; }
 @media (max-width: 560px) { .consent-banner { right: 16px; bottom: 16px; padding: 18px; } .consent-actions { width: 100%; } .consent-actions button { flex: 1 1 150px; } }
+
+/* Experiência em vídeo: uma composição editorial, com carregamento progressivo. */
+.video-experience { overflow: hidden; background: #061118; }
+.video-experience-heading { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(280px, .7fr); gap: 70px; align-items: end; margin-bottom: 58px; }
+.video-experience-heading h2 { max-width: 640px; color: var(--cream); }
+.video-experience-heading > p { max-width: 38ch; margin: 0 0 5px; padding-left: 25px; border-left: 1px solid var(--accent); color: #d8d4ca; font-size: 17px; }
+.video-experience-grid { display: grid; grid-template-columns: 1.34fr .83fr .83fr; gap: 24px; align-items: end; }
+.video-card { min-width: 0; }
+.video-card:nth-child(2) { padding-bottom: 52px; }
+.video-card:nth-child(3) { padding-bottom: 18px; }
+.video-frame { position: relative; overflow: hidden; aspect-ratio: 9 / 16; background: #02080c; isolation: isolate; }
+.video-frame::after { position: absolute; z-index: 1; inset: auto 0 0; height: 38%; content: ''; pointer-events: none; background: linear-gradient(transparent, rgb(2 8 12 / 48%)); }
+.experience-video { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .88; transform: scale(1.002); transition: opacity .5s var(--ease-out), transform .8s var(--ease-out); }
+.video-card:hover .experience-video, .video-card:focus-within .experience-video { opacity: 1; transform: scale(1.035); }
+.video-control { position: absolute; z-index: 2; right: 18px; bottom: 18px; display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; gap: 8px; padding: 9px 12px; border: 1px solid rgb(243 235 212 / 68%); border-radius: 0; background: rgb(2 8 12 / 62%); color: var(--cream); cursor: pointer; font: 700 10px/1 Raleway, sans-serif; letter-spacing: .08em; text-transform: uppercase; backdrop-filter: blur(8px); transition: background .2s ease, border-color .2s ease, transform .2s var(--ease-out); }
+.video-control:hover { border-color: var(--cream); background: var(--accent-cta); transform: translateY(-2px); }
+.video-control:active { transform: translateY(1px); }
+.video-control-icon { position: relative; display: inline-block; width: 8px; height: 11px; border-block: 0; }
+.video-control-icon::before { position: absolute; inset: 0; border-block: 5.5px solid transparent; border-left: 8px solid currentColor; content: ''; }
+.video-card.is-playing .video-control-icon::before { left: 0; width: 8px; height: 11px; border: 0; background: linear-gradient(90deg, currentColor 0 28%, transparent 28% 72%, currentColor 72%); }
+.video-caption { display: flex; justify-content: space-between; gap: 14px; margin-top: 14px; color: #d8d4ca; }
+.video-caption p { margin: 0; color: var(--cream); font-family: Forum, Georgia, serif; font-size: 25px; line-height: 1; }
+.video-caption span { align-self: end; color: #a9a69e; font-size: 10px; font-weight: 700; letter-spacing: .06em; line-height: 1.25; text-align: right; text-transform: uppercase; }
+.video-experience-action { text-align: center; }
+.video-experience-action .button { margin-top: 55px; }
+
+@media (max-width: 900px) {
+  .video-experience-heading { grid-template-columns: 1fr; gap: 28px; margin-bottom: 42px; }
+  .video-experience-heading > p { max-width: 50ch; }
+  .video-experience-grid { grid-template-columns: 1.12fr .88fr; }
+  .video-card:nth-child(2) { padding-bottom: 0; }
+  .video-card:nth-child(3) { width: min(52%, 330px); padding-bottom: 0; }
+}
+@media (max-width: 560px) {
+  .video-experience-heading > p { padding-left: 18px; font-size: 16px; }
+  .video-experience-grid { display: flex; width: calc(100% + 20px); margin-right: -20px; padding-right: 20px; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; scrollbar-color: var(--accent) transparent; }
+  .video-card, .video-card:nth-child(3) { flex: 0 0 min(77vw, 310px); width: auto; scroll-snap-align: start; }
+  .video-caption p { font-size: 22px; }
+  .video-experience-action .button { margin-top: 38px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .experience-video { opacity: 1; transform: none !important; }
+  .video-control { display: none; }
+}

@@ -75,6 +75,57 @@ if (!reducedMotion) {
   requestMotionUpdate();
 }
 
+/* Galeria de vídeos: apenas o vídeo mais visível é carregado e reproduzido. */
+const videoExperience = document.querySelector('.video-experience');
+const experienceVideos = [...document.querySelectorAll('.experience-video')];
+const ensureVideoSource = (video) => {
+  const source = video.querySelector('source[data-src]');
+  if (!source || source.src) return;
+  source.src = source.dataset.src;
+  video.load();
+};
+const setExperiencePlayback = (video, shouldPlay) => {
+  const card = video.closest('[data-video-card]');
+  const button = card?.querySelector('.video-control');
+  const label = button?.querySelector('.video-control-text');
+  if (!card || !button || !label) return;
+  if (shouldPlay && !reducedMotion) {
+    ensureVideoSource(video);
+    video.play().then(() => {
+      card.classList.add('is-playing');
+      button.setAttribute('aria-pressed', 'true');
+      button.setAttribute('aria-label', `${languageData[activeLanguage].videoPause} vídeo ${experienceVideos.indexOf(video) + 1}`);
+      label.textContent = languageData[activeLanguage].videoPause;
+    }).catch(() => { /* O botão continua disponível caso o autoplay seja bloqueado. */ });
+  } else {
+    video.pause();
+    card.classList.remove('is-playing');
+    button.setAttribute('aria-pressed', 'false');
+    button.setAttribute('aria-label', `${languageData[activeLanguage].videoPlay} vídeo ${experienceVideos.indexOf(video) + 1}`);
+    label.textContent = languageData[activeLanguage].videoPlay;
+  }
+};
+
+if (videoExperience && experienceVideos.length) {
+  experienceVideos.forEach((video) => {
+    const button = video.closest('[data-video-card]')?.querySelector('.video-control');
+    button?.addEventListener('click', () => {
+      const willPlay = video.paused;
+      experienceVideos.forEach((item) => { if (item !== video) setExperiencePlayback(item, false); });
+      setExperiencePlayback(video, willPlay);
+    });
+  });
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    const visibility = new Map(experienceVideos.map((video) => [video, 0]));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => visibility.set(entry.target, entry.intersectionRatio));
+      const active = [...visibility.entries()].sort((a, b) => b[1] - a[1])[0];
+      experienceVideos.forEach((video) => setExperiencePlayback(video, active?.[0] === video && active[1] >= .48));
+    }, { threshold: [0, .48, .7], rootMargin: '0px 0px -8% 0px' });
+    experienceVideos.forEach((video) => observer.observe(video));
+  }
+}
+
 const year = document.querySelector('#year');
 if (year) year.textContent = String(new Date().getFullYear());
 
@@ -96,7 +147,7 @@ const languageData = {
     nav: ['A casa', 'Especialidades', 'Reservas', 'Contacto'],
     heroLocation: 'Rua Augusta, 182 · Baixa de Lisboa', heroTitle: 'Marisco e sabor<br>português no<br>coração de Lisboa.', heroCta: 'Reserve a sua mesa',
     storyTitle: 'Marisco, cozinha portuguesa e Lisboa à mesa.', storyText: 'O Gelo Augusta é uma marisqueira e restaurante português na Rua Augusta, na Baixa de Lisboa. Num espaço moderno de dois pisos e quatro frentes de loja, a casa reúne marisco, peixe fresco e cozinha portuguesa.', storyCta: 'Visite o Gelo Augusta',
-    experienceTitle: 'O mar encontra a energia da Baixa.', experienceText: 'Entre a elegância da Rua Augusta e o sabor do Atlântico, o Gelo Augusta convida a descobrir uma mesa dedicada ao peixe fresco, ao marisco e aos clássicos da cozinha portuguesa.', stats: ['Pisos', 'Um espaço contemporâneo para almoços, jantares e encontros no centro histórico de Lisboa.', 'Frentes de loja', 'Na Rua Augusta, uma das vias mais emblemáticas da Baixa lisboeta.'],
+    experienceTitle: 'O mar encontra a energia da Baixa.', experienceText: 'Entre a elegância da Rua Augusta e o sabor do Atlântico, o Gelo Augusta convida a descobrir uma mesa dedicada ao peixe fresco, ao marisco e aos clássicos da cozinha portuguesa.', videoTitle: 'A energia da Rua Augusta, à sua mesa.', videoText: 'Do primeiro brinde ao último detalhe: conheça um pouco da atmosfera do Gelo Augusta antes de chegar.', videoCaptions: [['Rua Augusta', 'À porta de Lisboa'], ['À mesa', 'Sabor em cada detalhe'], ['O momento', 'Uma casa com ritmo próprio']], videoCta: 'Reserve a sua mesa', videoPlay: 'Reproduzir', videoPause: 'Pausar', stats: ['Pisos', 'Um espaço contemporâneo para almoços, jantares e encontros no centro histórico de Lisboa.', 'Frentes de loja', 'Na Rua Augusta, uma das vias mais emblemáticas da Baixa lisboeta.'],
     reservationTitle: 'Reserve a sua mesa ou um evento especial.', reservationText: 'Escolha a data, a hora e o número de pessoas. Ao confirmar, o seu pedido é preparado para envio direto pelo WhatsApp.', reservationNote: 'Para grupos, comemorações e eventos, conte-nos os detalhes na mensagem.', phone: 'Prefere telefonar? +351 967 573 815', formTitle: 'Vamos organizar a sua visita.', labels: ['Nome completo', 'Telefone / WhatsApp', 'Data', 'Hora', 'Pessoas'], peoplePlaceholder: 'Selecione o número de pessoas', people: ['2 pessoas', '3 pessoas', '4 pessoas', '5+ pessoas'], confirm: 'Confirmar reserva',
     menuTitle: 'Sabores do mar e da cozinha portuguesa', dishes: [['Marisco', 'Seleção de marisco para partilhar e apreciar à mesa.'], ['Peixe fresco', 'Preparações que valorizam o produto e os sabores do Atlântico.'], ['Cozinha portuguesa', 'Receitas e referências da gastronomia portuguesa em plena Baixa.']], menuLink: 'Ver ementa',
     reviewsTitle: 'O que os clientes dizem.', reviewsSummary: 'Avaliações publicadas no Google Maps', reviews: ['“O serviço foi muito agradável e atencioso. Fui bem recebida...”', '“Excelente restaurante, comida espetacular, bebida gelada. Todos os atendentes super educados, em especial o brasileiro Paulo que nos atendeu e nos fez sentir em casa!”', '“A experiência na Cervejaria e Marisqueira Gelo Augusta foi simplesmente fantástica. Ambiente animado, música ao vivo, energia boa...”'], reviewSource: ['trecho de crítica no Google Maps', 'crítica no Google Maps', 'trecho de crítica no Google Maps'], reviewLink: 'Ler as avaliações no Google Maps', galleryTitle: 'Da vitrine à mesa.',
@@ -109,7 +160,7 @@ const languageData = {
     nav: ['Our restaurant', 'Specialities', 'Bookings', 'Contact'],
     heroLocation: 'Rua Augusta, 182 · Downtown Lisbon', heroTitle: 'Seafood and<br>Portuguese flavour<br>in the heart of Lisbon.', heroCta: 'Book your table',
     storyTitle: 'Seafood, Portuguese cuisine and Lisbon at the table.', storyText: 'Gelo Augusta is a seafood restaurant and Portuguese dining destination on Rua Augusta, in downtown Lisbon. In a contemporary two-floor space with four shopfronts, the house brings together seafood, fresh fish and Portuguese cuisine.', storyCta: 'Visit Gelo Augusta',
-    experienceTitle: 'The sea meets the energy of downtown.', experienceText: 'Between the elegance of Rua Augusta and the taste of the Atlantic, Gelo Augusta invites you to discover a table devoted to fresh fish, seafood and Portuguese classics.', stats: ['Floors', 'A contemporary space for lunches, dinners and gatherings in Lisbon’s historic centre.', 'Shopfronts', 'On Rua Augusta, one of downtown Lisbon’s most iconic streets.'],
+    experienceTitle: 'The sea meets the energy of downtown.', experienceText: 'Between the elegance of Rua Augusta and the taste of the Atlantic, Gelo Augusta invites you to discover a table devoted to fresh fish, seafood and Portuguese classics.', videoTitle: 'The energy of Rua Augusta, at your table.', videoText: 'From the first toast to the final detail: get a glimpse of the Gelo Augusta atmosphere before you arrive.', videoCaptions: [['Rua Augusta', 'At Lisbon’s door'], ['At the table', 'Flavour in every detail'], ['The moment', 'A house with its own rhythm']], videoCta: 'Book your table', videoPlay: 'Play', videoPause: 'Pause', stats: ['Floors', 'A contemporary space for lunches, dinners and gatherings in Lisbon’s historic centre.', 'Shopfronts', 'On Rua Augusta, one of downtown Lisbon’s most iconic streets.'],
     reservationTitle: 'Book your table or a special event.', reservationText: 'Choose the date, time and number of guests. When you confirm, your request is prepared to send directly through WhatsApp.', reservationNote: 'For groups, celebrations and events, tell us the details in your message.', phone: 'Prefer to call? +351 967 573 815', formTitle: 'Let’s plan your visit.', labels: ['Full name', 'Phone / WhatsApp', 'Date', 'Time', 'Guests'], peoplePlaceholder: 'Select the number of guests', people: ['2 guests', '3 guests', '4 guests', '5+ guests'], confirm: 'Confirm booking',
     menuTitle: 'Flavours of the sea and Portuguese cuisine', dishes: [['Seafood', 'A selection of seafood to share and enjoy at the table.'], ['Fresh fish', 'Preparations that honour the product and the flavours of the Atlantic.'], ['Portuguese cuisine', 'Recipes and references from Portuguese gastronomy in the heart of downtown.']], menuLink: 'View menu',
     reviewsTitle: 'What guests are saying.', reviewsSummary: 'Reviews published on Google Maps', reviews: ['“The service was very pleasant and attentive. I was warmly welcomed...”', '“Excellent restaurant, spectacular food, ice-cold drinks. The whole team was very polite, especially Paulo, who made us feel at home!”', '“The experience at Gelo Augusta was simply fantastic. Lively atmosphere, live music, great energy...”'], reviewSource: ['excerpt from a Google Maps review', 'Google Maps review', 'excerpt from a Google Maps review'], reviewLink: 'Read reviews on Google Maps', galleryTitle: 'From display to table.',
@@ -122,7 +173,7 @@ const languageData = {
     nav: ['El restaurante', 'Especialidades', 'Reservas', 'Contacto'],
     heroLocation: 'Rua Augusta, 182 · Centro de Lisboa', heroTitle: 'Marisco y sabor<br>portugués en el<br>corazón de Lisboa.', heroCta: 'Reserve su mesa',
     storyTitle: 'Marisco, cocina portuguesa y Lisboa en la mesa.', storyText: 'Gelo Augusta es una marisquería y restaurante portugués en Rua Augusta, en el centro de Lisboa. En un espacio contemporáneo de dos plantas y cuatro escaparates, la casa reúne marisco, pescado fresco y cocina portuguesa.', storyCta: 'Visite Gelo Augusta',
-    experienceTitle: 'El mar se encuentra con la energía del centro.', experienceText: 'Entre la elegancia de Rua Augusta y el sabor del Atlántico, Gelo Augusta le invita a descubrir una mesa dedicada al pescado fresco, al marisco y a los clásicos de la cocina portuguesa.', stats: ['Plantas', 'Un espacio contemporáneo para almuerzos, cenas y encuentros en el centro histórico de Lisboa.', 'Escaparates', 'En Rua Augusta, una de las calles más emblemáticas del centro de Lisboa.'],
+    experienceTitle: 'El mar se encuentra con la energía del centro.', experienceText: 'Entre la elegancia de Rua Augusta y el sabor del Atlántico, Gelo Augusta le invita a descubrir una mesa dedicada al pescado fresco, al marisco y a los clásicos de la cocina portuguesa.', videoTitle: 'La energía de Rua Augusta, en su mesa.', videoText: 'Del primer brindis al último detalle: descubra un poco de la atmósfera de Gelo Augusta antes de llegar.', videoCaptions: [['Rua Augusta', 'A las puertas de Lisboa'], ['En la mesa', 'Sabor en cada detalle'], ['El momento', 'Una casa con ritmo propio']], videoCta: 'Reserve su mesa', videoPlay: 'Reproducir', videoPause: 'Pausar', stats: ['Plantas', 'Un espacio contemporáneo para almuerzos, cenas y encuentros en el centro histórico de Lisboa.', 'Escaparates', 'En Rua Augusta, una de las calles más emblemáticas del centro de Lisboa.'],
     reservationTitle: 'Reserve su mesa o un evento especial.', reservationText: 'Elija la fecha, la hora y el número de comensales. Al confirmar, su solicitud queda preparada para enviarse directamente por WhatsApp.', reservationNote: 'Para grupos, celebraciones y eventos, cuéntenos los detalles en su mensaje.', phone: '¿Prefiere llamar? +351 967 573 815', formTitle: 'Organicemos su visita.', labels: ['Nombre completo', 'Teléfono / WhatsApp', 'Fecha', 'Hora', 'Comensales'], peoplePlaceholder: 'Seleccione el número de comensales', people: ['2 personas', '3 personas', '4 personas', '5+ personas'], confirm: 'Confirmar reserva',
     menuTitle: 'Sabores del mar y de la cocina portuguesa', dishes: [['Marisco', 'Una selección de marisco para compartir y disfrutar en la mesa.'], ['Pescado fresco', 'Preparaciones que valorizan el producto y los sabores del Atlántico.'], ['Cocina portuguesa', 'Recetas y referencias de la gastronomía portuguesa en pleno centro.']], menuLink: 'Ver carta',
     reviewsTitle: 'Lo que dicen los clientes.', reviewsSummary: 'Reseñas publicadas en Google Maps', reviews: ['“El servicio fue muy agradable y atento. Me recibieron muy bien...”', '“Excelente restaurante, comida espectacular y bebidas frías. Todo el personal fue muy educado, especialmente Paulo, que nos hizo sentir como en casa.”', '“La experiencia en Gelo Augusta fue simplemente fantástica. Ambiente animado, música en directo y muy buena energía...”'], reviewSource: ['extracto de una reseña de Google Maps', 'reseña de Google Maps', 'extracto de una reseña de Google Maps'], reviewLink: 'Leer las reseñas en Google Maps', galleryTitle: 'Del expositor a la mesa.',
@@ -157,6 +208,16 @@ function applyLanguage(lang) {
   setText('.hero-location', copy.heroLocation); setHtml('#titulo-principal', copy.heroTitle); setText('.hero .button', copy.heroCta);
   setText('#titulo-sobre', copy.storyTitle); setText('.paper p:not(.eyebrow)', copy.storyText); setText('.paper .button', copy.storyCta);
   setText('#titulo-experiencia', copy.experienceTitle); setText('.editorial-right .lead', copy.experienceText);
+  setText('#titulo-videos', copy.videoTitle); setText('#texto-videos', copy.videoText); setText('.video-experience-action .button', copy.videoCta);
+  document.querySelectorAll('[data-video-card]').forEach((card, index) => {
+    const caption = copy.videoCaptions?.[index];
+    if (caption) { setText('.video-caption p', caption[0], card); setText('.video-caption span', caption[1], card); }
+    const control = card.querySelector('.video-control');
+    const controlText = card.querySelector('.video-control-text');
+    const playing = card.classList.contains('is-playing');
+    if (control) control.setAttribute('aria-label', `${playing ? copy.videoPause : copy.videoPlay} vídeo ${index + 1}`);
+    if (controlText) controlText.textContent = playing ? copy.videoPause : copy.videoPlay;
+  });
   const stats = document.querySelectorAll('.stats span, .stats p');
   [copy.stats[0], copy.stats[1], copy.stats[2], copy.stats[3]].forEach((value, index) => { if (stats[index]) stats[index].textContent = value; });
   setText('#titulo-reserva', copy.reservationTitle);
