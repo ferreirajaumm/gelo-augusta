@@ -1,0 +1,6 @@
+.env
+.env.*
+.impeccable
+.git
+.DS_Store
+*.log
