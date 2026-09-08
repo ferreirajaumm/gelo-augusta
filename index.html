@@ -16,7 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Forum&amp;family=Raleway:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
-  <link rel="preload" as="image" href="assets/hero-interior.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/gelo-augusta-hero-poster.jpg" fetchpriority="high" />
+  <link rel="preload" as="video" href="assets/gelo-augusta-hero.mp4" type="video/mp4" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     /* Preencha somente após receber os IDs reais de produção. */
@@ -71,7 +72,9 @@
 
   <main id="conteudo">
     <section class="hero" id="home" aria-labelledby="titulo-principal">
-      <div class="hero-media hero-image" aria-hidden="true"></div>
+      <video class="hero-media hero-image hero-video" aria-hidden="true" autoplay muted loop playsinline preload="metadata" poster="assets/gelo-augusta-hero-poster.jpg">
+        <source src="assets/gelo-augusta-hero.mp4" type="video/mp4" />
+      </video>
       <div class="hero-shade"></div>
       <div class="container hero-content reveal">
         <p class="hero-location">Rua Augusta, 182 · Baixa de Lisboa</p>
