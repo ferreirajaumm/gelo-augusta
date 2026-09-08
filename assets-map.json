@@ -1,0 +1,1600 @@
+{
+  "rewritten": [
+    {
+      "originalUrl": "https://lh4.googleusercontent.com/-Ar5yJO_C8Ds/AAAAAAAAAAI/AAAAAAAAAAA/G0jsCVl2Gh8/s160-c-k-mo/photo.jpg",
+      "localPath": "../assets/8ab0bb07559b0d3efd40900121bdf6d320a2c812ca2dbe1fdb8c8f5481aa11ce.png"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/platform/Google/star/f.svg",
+      "localPath": "../assets/fd0a18f717ca19bcbca32a12434f22221709c6297fab91466d2bdb2b21cc0287.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/platform/Google/icon.svg",
+      "localPath": "../assets/a667374e65ef94797b042e29afa75edcc2a54e8bf02015c60776d2b3688d7a27.svg"
+    },
+    {
+      "originalUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU19KOkTffzuXPzEw-MY56wohpuHxY5_wvPxoXl6_Ll7UJ5u5HOsA=w40-h40-c-rp-mo-ba4-br100",
+      "localPath": "../assets/73e9d92ec0389c607f4c1bef95bb3e153e3b695974355866cff0cb6f1f2ca159.png"
+    },
+    {
+      "originalUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWqPtT8YcAas-wZEcWL_rl4VPm1-yqPLCw-_wJRM-9gpQVoxC_h_Q=w40-h40-c-rp-mo-br100",
+      "localPath": "../assets/54b8bf8e293ef7da0e5484ab2d7a6fdae48a3c81cd086864e69cbe40c36c46c0.png"
+    },
+    {
+      "originalUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/1f44c.svg",
+      "localPath": "../assets/7f3e89c0a159b68c9f83bbbee96909699bd6c38e19cd7c5196709de4b94f52b7.svg"
+    },
+    {
+      "originalUrl": "https://lh3.googleusercontent.com/a/ACg8ocJP0kcnlb1GU83A472I2BWNMrlOAMrAvhbHHrS_2yA27ZXOPw=w40-h40-c-rp-mo-ba3-br100",
+      "localPath": "../assets/2ca7d9e9ee8dc27b217a379c97e408fde9fbcf729a1d13a435dffe422db423a4.png"
+    },
+    {
+      "originalUrl": "https://lh3.googleusercontent.com/a/ACg8ocL3LxMqzeyjMrLUG1_EWC3wsDSIQFTPe0x4qpUqMRc9XuIHIQ=w40-h40-c-rp-mo-ba2-br100",
+      "localPath": "../assets/8de00e6233854c2c0dad73ace5213fbbf2c68af2358d97b8c4bb2cd4de1208ac.png"
+    },
+    {
+      "originalUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUaUBmhljbU3nsDPJ2CpgyuRv6TEugAX8iQTCW-C7CQbS9IG-yJ=w40-h40-c-rp-mo-br100",
+      "localPath": "../assets/c1297a19e0c5c4515f2716b2497e0240077bf6b4646436a2678d23e65b688b5d.png"
+    },
+    {
+      "originalUrl": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+      "localPath": "../assets/6318394f737c66f0e2ccfcd88e3935c6667633a1b95fa29fba2b75431d55eef2.png"
+    },
+    {
+      "originalUrl": "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg",
+      "localPath": "../assets/ab5c23a05e39deed14d9d8262b0dce9f024f86105a27196cad37d14a3f516e09.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/platform/Trustindex/icon.svg",
+      "localPath": "../assets/a45051a62b9d23d581e01520f2c65cb32788a9e9859c990b2f5bb71ab27da9ce.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/icon/ti-verified.svg",
+      "localPath": "../assets/c32230b8d1bab877a41b9680e9f7f83062e4677396162f5ae602e8027d53a31c.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/icon/ti-verified-green.svg",
+      "localPath": "../assets/4e5be240bc51ff095411389a9b56296becc229dd87bc4bfb9c00cfbcef5469f1.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/icon/ti-verified-black.svg",
+      "localPath": "../assets/020f7a50a00ea77c308123664862d88f67ffd4109bf53f899558721b8397370b.svg"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/img/loading_dots.gif",
+      "localPath": "../assets/f5f0608b4049b3807a3eef0d95e794abc0b69f4d77fe5d8498a3eaf86d14ff25.gif"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/devanagari-italic.woff2",
+      "localPath": "../assets/cde48c89e89f53ae2f2f91be15fa1577799d40a37510c5bfa3e93a5181633c02.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-ext-italic.woff2",
+      "localPath": "../assets/1e91b430ebe5aa347934e70dcd76ca3c594e34d41d14ba3e2f1a7e1dcbc0cfc6.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-italic.woff2",
+      "localPath": "../assets/50d0c1742d80ac71f4cde20e8c04d41a24806af342831f479938b527fbff0972.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/devanagari-italic-600.woff2",
+      "localPath": "../assets/73b9ec8afb28abd16c401fe196d328450127f13004099c2a9685b9e1baf52c47.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-ext-italic-600.woff2",
+      "localPath": "../assets/10a9b6414cbebd6948c3a3a96838480b1ee019e0468033245ea1ddf1143bcda8.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-italic-600.woff2",
+      "localPath": "../assets/3ad6c8bd3624555dd79177efe91f0aca20e7f28597fa6b49762c27f337500d8d.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/devanagari.woff2",
+      "localPath": "../assets/6b986471df6084ba6f89749100b2731200a722d3de0e00f48e1967f21eb2adc0.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-ext.woff2",
+      "localPath": "../assets/0b1fcab42c18b69bcfe9ce4799fcbff5af1621c53ffcfdc4723c6f5ec4ee3ffb.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin.woff2",
+      "localPath": "../assets/7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/devanagari-600.woff2",
+      "localPath": "../assets/58dba357cb1e89bf36e83f19227293f35d5d7de91215d0fcf394e705634837b5.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-ext-600.woff2",
+      "localPath": "../assets/bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171.woff2"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/assets/fonts/poppins/latin-600.woff2",
+      "localPath": "../assets/f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149.woff2"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+      "localPath": "../assets/e3e8f7f01edabf33e14faa78875e2afd5b09165cea0cb378491c1fe1315046cb.css"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css?family=Forum:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+      "localPath": "../assets/1ea694bdae08c362d48835cd5a05f7c307bc46f4b28633790ddd4b5fe2d895ed.css"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css?family=Heebo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap",
+      "localPath": "../assets/8a9abd688a376279c4d91d2c6eb8b83d7c0455c0dafd6dac326349d9463318fe.css"
+    },
+    {
+      "originalUrl": "https://cdn.trustindex.io/loader.js?ver=1",
+      "localPath": "../assets/6891c69462754285fdbf6b2501f42a6fa11aec5106891f617bfacd765020ab97.js"
+    },
+    {
+      "originalUrl": "https://www.opentable.it/widget/reservation/loader?rid=443811&type=button&theme=standard&color=1&dark=false&iframe=true&domain=it&lang=it-IT&newtab=false&ot_source=Google&ot_campaign=Prenota%20Subito%20-%20Book%20Now&cfe=true",
+      "localPath": "../assets/9bb2b55be8fb1b505b6765a1949f9b72c119f00719cc1b76627c509334a142a7.js"
+    },
+    {
+      "originalUrl": "https://geo.wpforms.com/v3/geolocate/json",
+      "localPath": "../assets/04822d2e51b8646b23e1722f0cdd279139ab331e25ed0c17e89a936c02a19598.json"
+    },
+    {
+      "originalUrl": "https://apps.rokt.com/wsdk/plugins/dcui/index.html",
+      "localPath": "../assets/5f752aad2b5dae6b0819c04ebf7a1bfcf017c17266b63d045fab292a30362360.html"
+    },
+    {
+      "originalUrl": "https://apps.rokt.com/wsdk/controller/index.2.7233.0.html",
+      "localPath": "../assets/42c3fc64df1c691bcafb07e8af91cc40880394d8ae774fffe1d675518978b0b6.html"
+    },
+    {
+      "originalUrl": "https://apps.rokt.com/wsdk/plugins/widget/index.html",
+      "localPath": "../assets/4d86ceed98d54b30f994fd43ad260731e73d54f6caa1fdc95d352cd5ec417ab1.html"
+    },
+    {
+      "originalUrl": "https://www.opentable.it/widget/reservation/mural?restaurantIds=443811&type=button&colorThemeId=1&isDarkMode=false&isIframe=true&domain=it&lang=it-IT&isNewTab=false&otSource=Google&otCampaign=Prenota%20Subito%20-%20Book%20Now&font=BrandonText&primaryColor=ffffff&primaryFontColor=333333&buttonColor=da3743&buttonFontColor=ffffff&logoPid=0&backgroundPid=0&demo=false&otLogo=standard&loadAllWidgets=false&uuid=b1ef79a6-9c2a-48f0-8780-5cd0d2972ad914&theme=standard",
+      "localPath": "../assets/59799e22135a1826948e1dcb33f7c8b985c37b06b542089530632771a3f41ddc.bin"
+    },
+    {
+      "originalUrl": "https://maps.google.com/maps?q=Zi%20Rosetta%20-%20Ristorante%20Osteria%20Romana%2C%20Via%20della%20Rosetta%2C%208%2C%2000186%20Roma%2C%20Italy&t=m&z=17&output=embed&iwloc=near",
+      "localPath": "../assets/ae1cf4fc49d5721a98b4b1c5498fe107f0080f1f24db98f6a40b4e14e6aed72d.bin"
+    },
+    {
+      "originalUrl": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2",
+      "localPath": "../assets/7ca3477690adf9bdd80fe95c0da659f0a4614dfad12dc6608ad0173bdf21a404.js"
+    },
+    {
+      "originalUrl": "https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.zZZZhVqDDCw.L.W.O/am=BECAAQ/d=0/rs=AN8SPfreld5KM52lJgLi44qeAC03eRorPQ/m=el_main_css",
+      "localPath": "../assets/0ecbd1374ebd05d9733e3230e6ccaefadbfd8907cd151221d8af6fdf881b4e09.css"
+    },
+    {
+      "originalUrl": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.pt_BR.1P3cmBceZKE.O/am=BECAAQ/d=1/ed=1/rs=AN8SPfpmfhq2NwFS8lhCHXpk1IWJZaRDvQ/m=el_main",
+      "localPath": "../assets/bc038f40ff0b499fc7bf2f6abc19e4cb17872aad1b0557f65c7658d22892a655.js"
+    },
+    {
+      "originalUrl": "https://translate.google.com/gen204?sl=en&tl=pt&textlen=137&ttt=252&ttl=9&sr=1&ef=sda%2Ceopa&nca=te_time&client=te&logld=vTE_20260902",
+      "localPath": "../assets/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.bin"
+    }
+  ],
+  "limitations": [
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/zirosetta-logo.pdf.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/DSC08999-scaled-1-re0yltaoscmb7xzipdu0umspnsw3bnbr11jc6tnm6k.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/DSC08857-scaled-1-re0ym8c3tp4khoa3hnqyze31l76qinvlrtfzk49xc8.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/DSC09026-scaled-1-re0ymjm63pk0cztpnsmhtb8kptn5314dtd9tbft79k.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/s2-1024x409.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/2-rcrn5m08g3ammellmewh7zknzm0po9bqtxnvc7qup4.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/3-rcrn5my2mxbwy0k8gxb3shc4kzw2vyfh62bcthpgiw.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/4-rcrn5nvwtrd79mivbfpqcz3l6drg3nj7i6yuaro2co.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/5-rcrn5nvwtrd79mivbfpqcz3l6drg3nj7i6yuaro2co.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/6-rcrn5otr0lehl8hi5y4cxgv1rrmtbcmxubmbs1mo6g.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/7-rcrn5prl7ffrwug50gizhymid5i6j1qo6g9t9bla08.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/1-1-rcrn5l2e999casmyrwhunht7e85cgk80ht0duxs8vc.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/547548313_122110224350991568_1708351193739918407_n-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/547368829_122110224638991568_8820264838808633796_n-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/DSC09061-scaled-1-re0yqfo4593vmp78q4b7oiakmx6axoy28s2akff4go.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/547219954_122110224632991568_6295976418322593558_n-1-rcpyr8utgwces1gtmpy5r5s37kh2k2nmgbt05x5lvc.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-10-05-at-10.39.06-PM-1-rcrplgza50qsquyfkm97rqm7ge9k2nykpgr9uvwxhk.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-10-05-at-10.41.15-PM-rcrppxpoloutw6gyi1qf44211a9bmwoobkbax7alxk.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-10-05-at-10.43.47-PM-rcrpsf0cmy92j4v90mbz6zitgw16y5j6buafihm7ig.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-10-05-at-10.47.41-PM-rcrpypjge0v695q79u92dwcwmr0nh7ihizig66abuw.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/546624029_122110225118991568_6529470684576476953_n-1-rcpz54wygrcfxnolm9agx9caw3ek5r0rcxx9ngoos4.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-09-29-at-22.02.00_da3ab8c1-rcmi1yqajcucemshz8jiz4ai0cyqs0qokb7fbvl08k.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-01.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-02.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-03.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-04.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-05.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/img-partner-06.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/1-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/2-2.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/3-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/4-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/5-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/6-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/6-1-1024x576.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/5-1-1024x576.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/4-1-1024x576.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/3-1-1024x576.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/images/submit-spin.svg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/15-1024x1024.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/zh-CN.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/en.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/fr.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/de.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/it.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/pt.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/ru.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/flags/32/es.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/547548313_122110224350991568_1708351193739918407_n-1-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/547368829_122110224638991568_8820264838808633796_n-1-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/WhatsApp-Image-2025-09-29-at-22.02.01_e63894ee-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/WhatsApp-Image-2025-09-29-at-22.02.00_7fa623fb-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/WhatsApp-Image-2025-09-29-at-22.02.00_ece2bd7d-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/DSC08781-scaled-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/DSC08996-scaled-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/DSC08946-scaled-1.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/WhatsApp-Image-2025-09-29-at-22.02.00_ece2bd7d.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/bg-48HRFYW.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/Untitled-design.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/images/times-solid-white.svg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/arrow.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/sort_asc.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/sort_desc.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/sort_asc_disabled.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/flags.png?1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/img/globe.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/images/vendor/intl-tel-input-flags.png?1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/images/vendor/intl-tel-input-globe.png?1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-brands-400.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-brands-400.woff",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-brands-400.ttf",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-regular-400.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-regular-400.woff",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-regular-400.ttf",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-solid-900.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-solid-900.woff",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/webfonts/fa-solid-900.ttf",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/fontawesome-webfont.woff?v=4.7.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/fontawesome-webfont.ttf?v=4.7.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/Simple-Line-Icons.woff2?v=2.4.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/Simple-Line-Icons.ttf?v=2.4.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/Simple-Line-Icons.woff?v=2.4.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/eicons.woff2?5.48.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/eicons.woff?5.48.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/eicons.ttf?5.48.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/fonts/elementskit.woff?itek3h",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/ZI-ROSETTA-V1.mp4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/ZI-ROSETTA-V2.mp4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.11.12",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/sina-morphing.min.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/de-scroll-animation.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/de-reveal-animation.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=2.8.6",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/revealer.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/de-reveal-curtain-animation.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/letter/decolines.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/letter/normalize.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/letter/lettereffect.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/de_staggering/de-staggering.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=2.8.6",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/de_staggering/animate.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/css/post-35.css?ver=1775841311",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/css/letter/pater.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wp-whatsapp/assets/dist/css/style.css?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/de-sticky-frontend.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/de-product-display.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css?ver=8.4.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/slideInDown.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-float.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/elementor/css/post-56.css?ver=1787802626",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.9.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.9.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.9.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/metform/public/assets/lib/cute-alert/style.css?ver=4.1.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/metform/public/assets/css/text-editor.css?ver=4.1.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.34.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/slick.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/simple-line-icons.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/htflexboxgrid.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/dethemekit-widgets.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/dethemekit-de-carousel.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.6.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/jquery-1.12.4-wp.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/css/de_loop/ecs-style.css?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de_loop/ecs_ajax_pagination.js?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de_loop/ecs.js?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/s2.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/jquery-migrate-1.4.1-wp.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/themes/astra/assets/css/minified/galleries.min.css?ver=4.11.12",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/pro/css/fields/phone/intl-tel-input.min.css?ver=20.1.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/jquery.timepicker/jquery.timepicker.min.css?ver=1.11.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.11.12",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/flatpickr/flatpickr.min.css?ver=4.6.9",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/widgets/init/assets/js/jquery.magnific-popup.min.js?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=09382f635556bec359b3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.9.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert.js?ver=4.1.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js?ver=8.4.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.6.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wp-whatsapp/assets/js/whatsapp-button.js?ver=3.7.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wp-whatsapp/assets/dist/js/njt-whatsapp.js?ver=3.7.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de-column-clickable.js?ver=1.0.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wp-whatsapp/assets/js/whatsapp-popup.js?ver=3.7.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/lib/ResizeSensor.min.js?ver=1.7.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/lib/sticky-sidebar/sticky-sidebar.min.js?ver=3.3.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de-active-column.js?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de-sticky-frontend.js?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/de_scroll_animation.preview.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/scrollMonitor.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/letter/charming.min.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/anime.min.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/intersectionobserver.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/assets/js/de-active-icon-box.js?ver=2.1.10",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/letter/imagesloaded.pkgd.min.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/letter/lineMaker.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/letter/textfx.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/de_staggering/de_staggering.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.9.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/de_reveal_animation.preview.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/wp-util.min.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/dethemekit-for-elementor/includes/ext/sina/assets/js/main.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/js/share/utils.min.js?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.20.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/underscore.min.js?ver=1.13.7",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/jquery.inputmask.min.js?ver=5.0.7-beta.29",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/jquery.intl-tel-input.min.js?ver=20.1.0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/flatpickr/flatpickr.min.js?ver=4.6.9",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js?ver=1.8.8.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/lib/jquery.timepicker/jquery.timepicker.min.js?ver=1.11.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/gtranslate/js/float.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/fonts/elementskit.woff?itek3h",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/lightbox.570c05c5a283cfb6b223.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/397f2d183c19202777d6.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css?ver=4.0.1",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/2025/10/cropped-cropped-46e5c20b-2e61-41cd-a932-dc650665cb3c-32x32.png",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/jquery.intl-tel-input-utils.min.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/wp-content/uploads/trustindex-google-widget.css?1775837792",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://www.zirosetta.it/#",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://translate-pa.googleapis.com/v1/translateHtml",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "HTTP 404"
+    },
+    {
+      "originalUrl": "https://translate.googleapis.com/element/log?format=json&hasfast=true&authuser=0",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "HTTP 400"
+    },
+    {
+      "originalUrl": "https://translate.googleapis.com/element/log?hasfast=true&authuser=0&format=json",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "HTTP 400"
+    }
+  ]
+}
