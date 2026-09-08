@@ -89,7 +89,9 @@ const setExperiencePlayback = (video, shouldPlay) => {
   const button = card?.querySelector('.video-control');
   const label = button?.querySelector('.video-control-text');
   if (!card || !button || !label) return;
-  if (shouldPlay && !reducedMotion) {
+  // O autoplay respeita reduced-motion porque o observer não é iniciado nesse
+  // modo, mas a reprodução manual continua disponível e acessível.
+  if (shouldPlay) {
     ensureVideoSource(video);
     video.play().then(() => {
       card.classList.add('is-playing');

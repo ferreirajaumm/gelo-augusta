@@ -115,7 +115,9 @@
       analytics_storage: analyticsGranted
     });
     try { localStorage.setItem(storageKey, consent); } catch { /* Storage can be unavailable. */ }
-    if (consent === 'marketing') enableMarketingTags();
+    // Analytics consent também deve carregar o GA4; campanhas apenas acrescentam
+    // Google Ads/Meta quando o utilizador autoriza marketing.
+    if (consent === 'analytics' || consent === 'marketing') enableMarketingTags();
     track('consent_updated', { consent_level: consent });
   };
 

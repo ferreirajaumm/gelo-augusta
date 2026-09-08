@@ -357,5 +357,5 @@ h3 { font-size: 25px; line-height: 1.15; }
 }
 @media (prefers-reduced-motion: reduce) {
   .experience-video { opacity: 1; transform: none !important; }
-  .video-control { display: none; }
+  .video-control { display: inline-flex; transition: none; }
 }
