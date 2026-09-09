@@ -358,8 +358,10 @@ h3 { font-size: 25px; line-height: 1.15; }
     scroll-padding-inline: 0 24px;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
-    overscroll-behavior-y: none;
-    touch-action: pan-x;
+    /* O carrossel deve capturar apenas o gesto horizontal. O eixo vertical
+       continua a pertencer à página para a navegação não ficar presa aqui. */
+    overscroll-behavior-y: auto;
+    touch-action: pan-x pan-y;
     scrollbar-width: none;
   }
   .video-experience-grid::-webkit-scrollbar { display: none; }
