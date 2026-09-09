@@ -2,7 +2,7 @@
 > Marisqueira e restaurante de cozinha portuguesa na Rua Augusta, na Baixa de Lisboa.
 
 ## Página principal
-- [Gelo Augusta](https://gelo-augusta.vercel.app/): Informações sobre marisco, peixe fresco, cozinha portuguesa, reservas, contacto e localização.
+- [Gelo Augusta](https://www.geloaugusta.pt/): Informações sobre marisco, peixe fresco, cozinha portuguesa, reservas, contacto e localização.
 
 ## Factos verificados
 - Morada: Rua Augusta 182, 1100-051 Lisboa, Portugal.

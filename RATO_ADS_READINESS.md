@@ -37,7 +37,7 @@ Os identificadores abaixo não foram inventados e não devem ser substituídos p
 
 1. **Google Search — intenção alta**
    - Foco: termos de marca, “marisqueira rua augusta”, “marisco baixa lisboa”, “restaurante peixe fresco lisboa”.
-   - Destino: `https://gelo-augusta.vercel.app/?utm_source=google&utm_medium=cpc&utm_campaign=search_reservas_lisboa`
+   - Destino: `https://www.geloaugusta.pt/?utm_source=google&utm_medium=cpc&utm_campaign=search_reservas_lisboa`
    - Conversão: `generate_lead`.
 2. **Meta Ads — descoberta local e remarketing**
    - Criativos: vídeos verticais da experiência e imagens reais de marisco, peixe e cozinha portuguesa.

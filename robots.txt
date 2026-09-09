@@ -23,4 +23,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://gelo-augusta.vercel.app/sitemap.xml
+Sitemap: https://www.geloaugusta.pt/sitemap.xml
