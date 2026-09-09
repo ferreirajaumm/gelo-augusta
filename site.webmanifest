@@ -1,0 +1,17 @@
+{
+  "name": "Gelo Augusta",
+  "short_name": "Gelo Augusta",
+  "description": "Marisqueira e restaurante de cozinha portuguesa na Rua Augusta, Lisboa.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#02080c",
+  "theme_color": "#02080c",
+  "lang": "pt-PT",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

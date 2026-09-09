@@ -4,3 +4,5 @@
 .git
 .DS_Store
 *.log
+# Fonte de edição do hero: o site usa a versão curta e otimizada abaixo.
+assets/gelo-augusta-hero.mp4

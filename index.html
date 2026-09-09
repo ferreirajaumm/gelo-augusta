@@ -3,21 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="Gelo Augusta, marisqueira e restaurante português na Rua Augusta, em Lisboa." />
+  <meta name="description" content="Gelo Augusta: marisqueira e restaurante de cozinha portuguesa na Rua Augusta, Baixa de Lisboa. Reserve a sua mesa por WhatsApp." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="author" content="Gelo Augusta" />
   <meta name="theme-color" content="#02080c" />
+  <link rel="canonical" href="https://gelo-augusta.vercel.app/" />
   <meta property="og:locale" content="pt_PT" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Gelo Augusta" />
   <meta property="og:title" content="Gelo Augusta - Marisco e cozinha portuguesa em Lisboa" />
-  <meta property="og:description" content="Marisqueira e restaurante português na Rua Augusta, em Lisboa." />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:description" content="Marisqueira e restaurante de cozinha portuguesa na Rua Augusta, Baixa de Lisboa. Reserve a sua mesa por WhatsApp." />
+  <meta property="og:url" content="https://gelo-augusta.vercel.app/" />
+  <meta property="og:image" content="https://gelo-augusta.vercel.app/assets/gelo-augusta-hero-poster.jpg" />
+  <meta property="og:image:alt" content="Gelo Augusta, marisqueira e restaurante português na Rua Augusta em Lisboa" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gelo Augusta - Marisco e cozinha portuguesa em Lisboa" />
+  <meta name="twitter:description" content="Marisqueira e restaurante de cozinha portuguesa na Rua Augusta, Baixa de Lisboa. Reserve a sua mesa por WhatsApp." />
+  <meta name="twitter:image" content="https://gelo-augusta.vercel.app/assets/gelo-augusta-hero-poster.jpg" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
   <title>Gelo Augusta - Marisco e cozinha portuguesa em Lisboa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Forum&amp;family=Raleway:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
   <link rel="preload" as="image" href="assets/gelo-augusta-hero-poster.jpg" fetchpriority="high" />
-  <link rel="preload" as="video" href="assets/gelo-augusta-hero.mp4" type="video/mp4" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     /* Preencha somente após receber os IDs reais de produção. */
@@ -32,9 +41,15 @@
     {
       "@context": "https://schema.org",
       "@type": "Restaurant",
+      "@id": "https://gelo-augusta.vercel.app/#restaurant",
       "name": "Gelo Augusta",
+      "url": "https://gelo-augusta.vercel.app/",
+      "image": "https://gelo-augusta.vercel.app/assets/gelo-augusta-hero-poster.jpg",
+      "logo": "https://gelo-augusta.vercel.app/favicon.svg",
       "servesCuisine": ["Portuguese", "Seafood"],
       "telephone": "+351967573815",
+      "menu": "https://umarella.org/gelo-augusta/menu",
+      "hasMap": "https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Rua Augusta 182",
@@ -43,6 +58,8 @@
         "addressCountry": "PT"
       },
       "geo": { "@type": "GeoCoordinates", "latitude": 38.7113559, "longitude": -9.1378258 },
+      "areaServed": { "@type": "City", "name": "Lisboa" },
+      "availableLanguage": ["pt-PT", "en", "es"],
       "sameAs": [
         "https://www.instagram.com/gelo_augusta_restaurante/",
         "https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D"
@@ -73,7 +90,7 @@
   <main id="conteudo">
     <section class="hero" id="home" aria-labelledby="titulo-principal">
       <video class="hero-media hero-image hero-video" aria-hidden="true" autoplay muted loop playsinline preload="metadata" poster="assets/gelo-augusta-hero-poster.jpg">
-        <source src="assets/gelo-augusta-hero.mp4" type="video/mp4" />
+        <source src="assets/gelo-augusta-hero-optimized.mp4" type="video/mp4" />
       </video>
       <div class="hero-shade"></div>
       <div class="container hero-content reveal">
@@ -144,11 +161,39 @@
 
     <section class="gallery section" aria-labelledby="titulo-galeria"><div class="container"><h2 id="titulo-galeria">Da vitrine à mesa.</h2><div class="gallery-grid"><img loading="lazy" decoding="async" src="assets/gelo-augusta-rua.webp" width="1400" height="2488" alt="Fachada do Gelo Augusta na Rua Augusta" /><img loading="lazy" decoding="async" src="assets/gelo-augusta-musica.webp" width="1400" height="2488" alt="Música ao vivo no interior do Gelo Augusta" /><img loading="lazy" decoding="async" src="assets/gelo-augusta-equipa.webp" width="1400" height="2488" alt="Equipa do Gelo Augusta em serviço" /></div></div></section>
 
+    <section class="faq section" id="perguntas" aria-labelledby="titulo-perguntas">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <p class="eyebrow red">Informações úteis</p>
+          <h2 id="titulo-perguntas">Antes de chegar ao Gelo Augusta.</h2>
+          <p>Informação direta para organizar a sua visita à nossa marisqueira na Baixa de Lisboa.</p>
+        </div>
+        <div class="faq-list reveal from-right">
+          <details><summary>Onde fica o Gelo Augusta?</summary><p>O Gelo Augusta fica na Rua Augusta 182, 1100-051 Lisboa, na Baixa de Lisboa.</p></details>
+          <details><summary>Como posso reservar uma mesa?</summary><p>Use o formulário de reservas no site. Depois de preencher nome, contacto, data, hora e número de pessoas, o pedido abre diretamente no WhatsApp do Gelo Augusta para confirmação.</p></details>
+          <details><summary>Qual é o contacto para reservas?</summary><p>Para reservas e informações, contacte o Gelo Augusta pelo número <a href="tel:+351967573815">+351 967 573 815</a>.</p></details>
+          <details><summary>Que tipo de cozinha encontro no Gelo Augusta?</summary><p>A casa é dedicada ao marisco, peixe fresco e cozinha portuguesa, no centro histórico de Lisboa.</p></details>
+        </div>
+      </div>
+    </section>
+
     <section class="contact section" id="contato" aria-labelledby="titulo-contato"><div class="container contact-grid"><article class="reveal"><p class="eyebrow red">Localização</p><h2 id="titulo-contato">Gelo Augusta, na Baixa de Lisboa.</h2><p>Rua Augusta 182, 1100-051 Lisboa, Portugal. Depois de reservar, use o mapa apenas para traçar sua rota.</p><p class="contact-phone"><a href="tel:+351967573815">+351 967 573 815</a></p><div class="contact-actions"><a class="button" href="#reserva">Fazer reserva</a><a class="inline-contact" href="https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu&amp;g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Ver rota no mapa</a></div></article><div class="contact-visual"><img loading="lazy" decoding="async" src="assets/gelo-augusta-prato.webp" width="1400" height="2488" alt="Marisco servido no Gelo Augusta"/><iframe title="Mapa do Gelo Augusta" src="https://maps.google.com/maps?q=38.7113559,-9.1378258&amp;t=m&amp;z=17&amp;output=embed" loading="lazy"></iframe></div></div></section>
   </main>
 
   <footer class="footer"><div class="container footer-grid"><div><h3>Informações</h3><p>Gelo Augusta<br />Rua Augusta 182<br />1100-051 Lisboa, Portugal</p><a href="tel:+351967573815">+351 967 573 815</a><br /><a href="https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu&amp;g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Abrir localização</a></div><div class="footer-brand"><a class="brand-text footer-logo" href="#topo" aria-label="Voltar ao início"><span>GELO</span><small>AUGUSTA</small></a><p>Marisqueira e cozinha portuguesa na Rua Augusta, em Lisboa.</p><div class="socials"><a href="https://www.instagram.com/gelo_augusta_restaurante/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a><a href="https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu&amp;g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Google Maps">MAP</a></div></div><div><h3>Localização</h3><p>Baixa de Lisboa<br />Rua Augusta, 182</p><a href="#avaliacoes">Avaliações públicas</a><br /><a href="#contato">Como chegar</a></div></div><p class="copyright">© <span id="year">2026</span> GELO AUGUSTA. TODOS OS DIREITOS RESERVADOS.</p></footer>
   <script src="tracking.js" defer></script>
   <script src="script.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Onde fica o Gelo Augusta?","acceptedAnswer":{"@type":"Answer","text":"O Gelo Augusta fica na Rua Augusta 182, 1100-051 Lisboa, na Baixa de Lisboa."}},
+        {"@type":"Question","name":"Como posso reservar uma mesa?","acceptedAnswer":{"@type":"Answer","text":"Use o formulário de reservas no site. Depois de preencher nome, contacto, data, hora e número de pessoas, o pedido abre diretamente no WhatsApp do Gelo Augusta para confirmação."}},
+        {"@type":"Question","name":"Qual é o contacto para reservas?","acceptedAnswer":{"@type":"Answer","text":"Para reservas e informações, contacte o Gelo Augusta pelo número +351 967 573 815."}},
+        {"@type":"Question","name":"Que tipo de cozinha encontro no Gelo Augusta?","acceptedAnswer":{"@type":"Answer","text":"A casa é dedicada ao marisco, peixe fresco e cozinha portuguesa, no centro histórico de Lisboa."}}
+      ]
+    }
+  </script>
 </body>
 </html>

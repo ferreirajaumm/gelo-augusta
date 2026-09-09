@@ -34,7 +34,7 @@ A estrutura de eventos, consentimento e atribuição foi adicionada, mas não ex
 
 | Conversão | Evento | Contagem | Plataformas |
 |---|---|---|---|
-| Intenção de reserva via WhatsApp | `whatsapp_reservation_opened` | Uma por envio válido | GA4, Google Ads e Meta Pixel após consentimento. |
+| Intenção de reserva via WhatsApp | `whatsapp_reservation_opened` + `generate_lead` | Uma por envio válido | `generate_lead` é enviado ao GA4 após consentimento analítico; Google Ads e Meta Pixel recebem a conversão após consentimento de marketing. |
 | Reserva confirmada | — | Somente se o processo interno/WhatsApp devolver confirmação de forma consentida | Não está implementada. |
 
 ## Configuração necessária antes de publicar tags
@@ -55,4 +55,4 @@ Preferência operacional: usar um único contentor GTM depois de criado e versio
 3. Testar reserva em desktop e mobile; confirmar um único `reservation_submit_valid` e `whatsapp_reservation_opened`, somente quando a janela do WhatsApp abrir.
 4. Testar telefone, rota, menu, avaliações e troca de idioma.
 5. Confirmar no GA4 DebugView e nas ferramentas de diagnóstico do Google Ads/Meta.
-6. Marcar no GA4 apenas `whatsapp_reservation_opened` como evento-chave; não marcar visualizações ou cliques genéricos.
+6. Marcar `generate_lead` (reserva aberta no WhatsApp) como evento-chave no GA4; não marcar visualizações ou cliques genéricos.

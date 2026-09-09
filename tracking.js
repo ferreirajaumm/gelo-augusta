@@ -124,6 +124,12 @@
   const sendLeadConversion = () => {
     const adsId = config.googleAdsId?.trim();
     const label = config.googleAdsConversionLabel?.trim();
+    if (consent !== 'necessary' && typeof window.gtag === 'function' && hasValid(config.ga4MeasurementId, /^G-[A-Z0-9]+$/i)) {
+      window.gtag('event', 'generate_lead', {
+        lead_type: 'whatsapp_reservation',
+        currency: 'EUR'
+      });
+    }
     if (consent === 'marketing' && hasValid(adsId, /^AW-\d+$/i) && label) {
       window.gtag('event', 'conversion', { send_to: `${adsId}/${label}` });
     }
