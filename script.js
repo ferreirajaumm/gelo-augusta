@@ -93,6 +93,11 @@ const setExperiencePlayback = (video, shouldPlay) => {
   // modo, mas a reprodução manual continua disponível e acessível.
   if (shouldPlay) {
     ensureVideoSource(video);
+    if (!video.paused) {
+      card.classList.add('is-playing');
+      button.setAttribute('aria-pressed', 'true');
+      return;
+    }
     video.play().then(() => {
       card.classList.add('is-playing');
       button.setAttribute('aria-pressed', 'true');
@@ -100,7 +105,7 @@ const setExperiencePlayback = (video, shouldPlay) => {
       label.textContent = languageData[activeLanguage].videoPause;
     }).catch(() => { /* O botão continua disponível caso o autoplay seja bloqueado. */ });
   } else {
-    video.pause();
+    if (!video.paused) video.pause();
     card.classList.remove('is-playing');
     button.setAttribute('aria-pressed', 'false');
     button.setAttribute('aria-label', `${languageData[activeLanguage].videoPlay} vídeo ${experienceVideos.indexOf(video) + 1}`);
@@ -109,6 +114,7 @@ const setExperiencePlayback = (video, shouldPlay) => {
 };
 
 if (videoExperience && experienceVideos.length) {
+  const touchLayout = matchMedia('(hover: none) and (pointer: coarse)').matches;
   experienceVideos.forEach((video) => {
     const button = video.closest('[data-video-card]')?.querySelector('.video-control');
     button?.addEventListener('click', () => {
@@ -119,10 +125,22 @@ if (videoExperience && experienceVideos.length) {
   });
   if (!reducedMotion && 'IntersectionObserver' in window) {
     const visibility = new Map(experienceVideos.map((video) => [video, 0]));
+    let playbackTimer;
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => visibility.set(entry.target, entry.intersectionRatio));
       const active = [...visibility.entries()].sort((a, b) => b[1] - a[1])[0];
-      experienceVideos.forEach((video) => setExperiencePlayback(video, active?.[0] === video && active[1] >= .48));
+      const applyPlayback = () => {
+        experienceVideos.forEach((video) => setExperiencePlayback(video, active?.[0] === video && active[1] >= .48));
+      };
+      if (touchLayout) {
+        // Durante o gesto horizontal, o IntersectionObserver pode alternar
+        // rapidamente entre cartões e provocar play/load repetidos no iOS.
+        // Aguarda o scroll assentar antes de trocar o vídeo activo.
+        window.clearTimeout(playbackTimer);
+        playbackTimer = window.setTimeout(applyPlayback, 180);
+      } else {
+        applyPlayback();
+      }
     }, { threshold: [0, .48, .7], rootMargin: '0px 0px -8% 0px' });
     experienceVideos.forEach((video) => observer.observe(video));
   }
