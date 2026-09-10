@@ -14,4 +14,9 @@
 ## Ligações oficiais
 - [Google Maps](https://www.google.com/maps/place/Gelo+Augusta/@38.7113559,-9.1378258,17z/data=!3m1!4b1!4m6!3m5!1s0xd193527d6fc73b9:0x372eadc785d9d9d8!8m2!3d38.7113559!4d-9.1378258!16s%2Fg%2F11xzy8b7wg?entry=ttu)
 - [Instagram](https://www.instagram.com/gelo_augusta_restaurante/)
-- [Ementa](https://umarella.org/gelo-augusta/menu)
+- [Ementa oficial](https://www.geloaugusta.pt/ementa.html)
+
+## Ementa
+- Ementa oficial em HTML: https://www.geloaugusta.pt/ementa.html
+- Inclui marisco fresco, peixe do dia, pratos de peixe, arrozes, paellas, carnes, sobremesas e bebidas.
+- Os preços e a disponibilidade devem ser confirmados diretamente na ementa e com a equipa do restaurante.

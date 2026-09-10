@@ -96,7 +96,7 @@ h3 { font-size: 25px; line-height: 1.15; }
 .paper .eyebrow.red { color: #8b2227; }
 .paper p:not(.eyebrow) { max-width: 510px; margin: 38px 0 0; font-size: 18px; }
 .paper .button { margin-top: 38px; }
-.since { position: absolute; right: -40px; bottom: 5px; color: #fff; font-family: Forum, Georgia, serif; font-size: 75px; font-style: italic; line-height: 1.12; text-shadow: 0 2px 1px #8e8e8e; }
+.since { position: absolute; right: 0; bottom: 5px; color: #fff; font-family: Forum, Georgia, serif; font-size: 75px; font-style: italic; line-height: 1.12; text-shadow: 0 2px 1px #8e8e8e; }
 .marquee { margin: 0; overflow: hidden; color: rgb(216 212 212 / 19%); font-size: clamp(55px, 8vw, 140px); font-weight: 300; letter-spacing: .02em; line-height: .7; white-space: nowrap; }
 
 .editorial-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 140px; align-items: start; }
