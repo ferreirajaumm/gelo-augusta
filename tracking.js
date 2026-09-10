@@ -204,7 +204,12 @@
     captureAttribution();
     createConsentUi();
     try { consent = localStorage.getItem(storageKey) || 'necessary'; } catch { consent = 'necessary'; }
-    if (consent === 'marketing') updateConsent('marketing'); else showConsent();
+    if (consent === 'analytics' || consent === 'marketing') {
+      updateConsent(consent);
+      hideConsent();
+    } else {
+      showConsent();
+    }
 
     document.addEventListener('site:language', () => track('language_selected', { selected_language: document.documentElement.lang }));
     document.addEventListener('click', (event) => {
