@@ -420,13 +420,13 @@ h3 { font-size: 25px; line-height: 1.15; }
 .chef-bio strong { color: var(--cream); font-weight: 600; }
 @media (max-width: 900px) {
   .chef-grid { grid-template-columns: 1fr; gap: 40px; }
-  .chef-media img { height: 440px; object-position: center top; }
+  .chef-media img { height: auto; min-height: 440px; object-fit: contain; object-position: center; }
   .chef-copy h2 { margin-bottom: 24px; }
   .chef-bio p { font-size: 16px; }
   .chef-bio p:first-child { font-size: 17px; }
 }
 @media (max-width: 560px) {
-  .chef-media img { height: 320px; object-position: center top; }
+  .chef-media img { height: auto; min-height: 320px; object-fit: contain; object-position: center; }
   .chef-bio p { font-size: 15px; line-height: 1.65; }
   .chef-bio p:first-child { font-size: 16px; }
 }
